@@ -73,10 +73,3 @@ BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
 Description: Huayra 1 'brisa' prueba de actualizaciones 
 ParentSuite: brisa
 
-Suite: comunidad-sud
-RepositoryType: deb
-BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
-Description: Huayra 1 'brisa' comunidad
-ParentSuite: sud
-Official: false
-

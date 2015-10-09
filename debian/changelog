@@ -1,4 +1,4 @@
-python-apt (0.9.3.12huayra1) unstable; urgency=medium
+python-apt (0.9.3.12huayra2) unstable; urgency=medium
 
   [ Julian Andres Klode ]
   * apt/cache.py: Work around a cyclic reference from Cache to its methods
