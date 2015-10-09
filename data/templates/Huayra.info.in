@@ -1,0 +1,82 @@
+Suite: sud
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+MatchURI: huayra
+MirrorsFile: Huayra.mirrors
+Description: Huayra 3 'sud'
+Component: main
+CompDescription: Soportado oficialmente.
+Component: contrib
+CompDescription: Paquetes compatibles con las DFSG con dependencias No Libres.
+Component: non-free
+CompDescription: Paquetes No compatibles con DFSG.
+
+Suite: sud-updates
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+Description: Huayra 3 'sud' Actualizaciones 
+ParentSuite: sud
+
+Suite: sud-proposed
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+Description: Huayra 3 'sud' prueba de actualizaciones 
+ParentSuite: sud
+
+Suite: pampero
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+MatchURI: huayra
+MirrorsFile: Huayra.mirrors
+Description: Huayra 2 'pampero'
+Component: main
+CompDescription: Soportado oficialmente.
+Component: contrib
+CompDescription: Paquetes compatibles con las DFSG con dependencias No Libres.
+Component: non-free
+CompDescription: Paquetes No compatibles con DFSG.
+
+Suite: pampero-updates
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+Description: Huayra 2 'pampero' Actualizaciones 
+ParentSuite: pampero
+
+Suite: pampero-proposed
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+Description: Huayra 2 'pampero' prueba de actualizaciones 
+ParentSuite: pampero
+
+Suite: brisa
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+MatchURI: huayra
+MirrorsFile: Huayra.mirrors
+Description: Huayra 1 'brisa'
+Component: main
+CompDescription: Soportado oficialmente.
+Component: contrib
+CompDescription: Paquetes compatibles con las DFSG con dependencias No Libres.
+Component: non-free
+CompDescription: Paquetes No compatibles con DFSG.
+
+Suite: brisa-updates
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+Description: Huayra 1 'brisa' Actualizaciones 
+ParentSuite: brisa
+
+Suite: brisa-proposed
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+Description: Huayra 1 'brisa' prueba de actualizaciones 
+ParentSuite: brisa
+
+Suite: comunidad-sud
+RepositoryType: deb
+BaseURI: http://repo.huayra.conectarigualdad.gob.ar/huayra/
+Description: Huayra 1 'brisa' comunidad
+ParentSuite: sud
+Official: false
+
